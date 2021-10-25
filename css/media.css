@@ -1,0 +1,51 @@
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .header-container { 
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .get-started {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-rows: 12.5rem 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container.section-one,
+  .container.section-two,
+  .get-one,
+  .container.section-three,
+  .why-one,
+  .why-two,
+  .why-three-img-cont,
+  .container.section-four,
+  .container.section-five,
+  .container.section-six,
+  .container.section-seven,
+  .container.foot,
+  .foot-part-two-bottom {
+    padding: 0.625rem;
+    margin: 0.625rem;
+  }
+
+  .hire-two .form div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .form .form-name .first,
+  .form .form-contact .email,
+  .form .form-budget-country .budget { 
+    margin-right: 0; 
+    margin-bottom: 1rem;
+  }
+}

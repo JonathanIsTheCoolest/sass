@@ -1,0 +1,47 @@
+:root {
+  --size-10: 0.625rem;
+  --size-12: 0.75rem;
+  --size-14: 0.875rem;
+  --size-15: 0.9375rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-25: 1.5625rem;
+  --size-28: 1.75rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+  --size-200: 12.5rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a { text-decoration: none; }
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto ;
+}
+
+p { color: #666; }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.button { color: white; }
