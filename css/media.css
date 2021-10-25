@@ -1,5 +1,7 @@
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 926px) {
+  .key-ben-cards .documentation {
+    grid-column: 2;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -12,29 +14,72 @@
   .get-started {
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(2, 1fr); */
-    grid-template-rows: 12.5rem 1fr;
-    gap: 2rem;
+    grid-template-rows: 0fr 1fr;
+    gap: 0;
+  }
+
+  .get-one { padding-top: 0; }
+
+  .why-two-inner .circle::before, 
+  .why-two-inner .circle::after { width: 6vw; }
+}
+
+@media screen and (max-width: 602px) {
+    .foot-nav-part-one {
+      margin-right: unset;
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .why-one,
+  .why-two,
+  .why-three-img-cont {
+    padding: 0.625rem;
+    margin: 0.625rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .container.section-one,
-  .container.section-two,
+  .container,
+  .header { margin-bottom: 5rem; }
+
+  .container.section-one { margin-top: 40px; }
+
   .get-one,
-  .container.section-three,
   .why-one,
   .why-two,
   .why-three-img-cont,
-  .container.section-four,
-  .container.section-five,
-  .container.section-six,
-  .container.section-seven,
+  .hire-us,
   .container.foot,
   .foot-part-two-bottom {
     padding: 0.625rem;
     margin: 0.625rem;
   }
+
+  .key-ben-cards .documentation {
+    grid-column: unset;
+  }
+
+  .why-two { 
+   flex-direction: column; 
+   align-items: flex-start;
+  }
+  .why-two .why-two-inner { flex-direction: row; }
+
+  .why-two-inner .circle {
+    transform: rotate(90deg);
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+  .why-two-inner .circle::before, 
+  .why-two-inner .circle::after { width: 1vw; }
+
+  .why-two h3 { margin-top: 11px; }
+
+  .worlds-best .company-logos { justify-content: center; }
+  .worlds-best .company-logos .company-logo-cont { margin: 0 20px 10px; }
 
   .hire-two .form div {
     display: flex;
@@ -47,5 +92,27 @@
   .form .form-budget-country .budget { 
     margin-right: 0; 
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .foot-front-img-cont { margin: 0 auto; }
+  .foot-part-one-container { 
+    text-align: center; 
+    justify-content: center;
+    flex-direction: column;
+  }
+  .foot-part-one-container div ul li a { font-size: 16px; }
+}
+
+@media screen and (max-width: 340px) {
+  .worlds-best .company-logos { flex-direction: column; }
+  .worlds-best .company-logos .company-logo-cont { margin: 20px 0; }
+  .hire-us { 
+    padding: 0;
+  }
+  .container.section-seven {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

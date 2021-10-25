@@ -806,16 +806,17 @@ body {
 
 /* Footer Part One */
 .foot-part-one-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 5rem;
+  justify-content: space-between;
 }
 
 .foot-part-one-container > div { 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto 1rem;
+  justify-content: flex-start;
+  margin: 0 1rem 20px;
 }
 
 .foot-part-one-container h3 {
@@ -854,6 +855,7 @@ body {
 .foot-nav-part-two ul{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .foot-nav-part-one { margin-right: auto; }
