@@ -1,5 +1,6 @@
 :root {
   --size-10: 0.625rem;
+  --size-5: 0.3125rem;
   --size-12: 0.75rem;
   --size-14: 0.875rem;
   --size-15: 0.9375rem;
@@ -14,6 +15,7 @@
   --size-100: 6.25rem;
   --size-150: 9.375rem;
   --size-200: 12.5rem;
+  --size-300: 18.75rem;
 }
 
 *,

@@ -27,7 +27,7 @@
 @media screen and (max-width: 602px) {
     .foot-nav-part-one {
       margin-right: unset;
-      margin-bottom: 10px;
+      margin-bottom: var(--size-10);
   }
 }
 
@@ -35,8 +35,8 @@
   .why-one,
   .why-two,
   .why-three-img-cont {
-    padding: 0.625rem;
-    margin: 0.625rem;
+    padding: var(--size-10);
+    margin: var(--size-10);
   }
 }
 
@@ -44,7 +44,7 @@
   .container,
   .header { margin-bottom: 5rem; }
 
-  .container.section-one { margin-top: 40px; }
+  .container.section-one { margin-top: var(--size-40); }
 
   .get-one,
   .why-one,
@@ -53,8 +53,8 @@
   .hire-us,
   .container.foot,
   .foot-part-two-bottom {
-    padding: 0.625rem;
-    margin: 0.625rem;
+    padding: var(--size-10);
+    margin: var(--size-10);
   }
 
   .key-ben-cards .documentation {
@@ -69,14 +69,14 @@
 
   .why-two-inner .circle {
     transform: rotate(90deg);
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin-bottom: var(--size-20);
+    margin-right: var(--size-10);
   }
 
   .why-two-inner .circle::before, 
   .why-two-inner .circle::after { width: 1vw; }
 
-  .why-two h3 { margin-top: 11px; }
+  .why-two h3 { margin-top: 0.6875rem; }
 
   .worlds-best .company-logos { justify-content: center; }
   .worlds-best .company-logos .company-logo-cont { margin: 0 20px 10px; }
@@ -102,12 +102,12 @@
     justify-content: center;
     flex-direction: column;
   }
-  .foot-part-one-container div ul li a { font-size: 16px; }
+  .foot-part-one-container div ul li a { font-size: var(--size-16); }
 }
 
 @media screen and (max-width: 340px) {
   .worlds-best .company-logos { flex-direction: column; }
-  .worlds-best .company-logos .company-logo-cont { margin: 20px 0; }
+  .worlds-best .company-logos .company-logo-cont { margin: var(--size-20) 0; }
   .hire-us { 
     padding: 0;
   }
