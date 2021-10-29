@@ -57,9 +57,7 @@
     margin: var(--size-10);
   }
 
-  .key-ben-cards .documentation {
-    grid-column: unset;
-  }
+  .key-ben-cards .documentation { grid-column: unset; }
 
   .why-two { 
    flex-direction: column; 

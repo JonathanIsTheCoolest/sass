@@ -121,7 +121,7 @@ body {
   color: black;
 }
 
-.navbar-toggler { /*Come back and look at 'top'*/
+.navbar-toggler {
   position: absolute;
   right: var(--size-20);
   outline: none;
